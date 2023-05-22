@@ -2,9 +2,9 @@ package com.cc.java;
 
 public class Cat {
 
-    // this --> Instanzvariable
-    public void tellYourAdress() {
-        System.out.println("Blick von innen: " + this);
+    // this --> Instanzvariable // Selbstreferenz
+    public String tellYourAdress() {
+        return "Blick von innen: " + this;
         
     }
 }
